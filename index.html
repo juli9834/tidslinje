@@ -8,17 +8,37 @@
     <title>Houcrox</title>
 
     <style>
-        #car {
+        html {
+            border: none;
+        }
 
-            transform-box: fill-box;
-            transform-origin: center;
+        #thesvg {
+            max-width: 150vw;
+        }
+
+        #modal button {
+            font-size: 1em;
+            color: white;
+            margin-top: 10px;
+            border-radius: 50%;
+            background-color: #feb700;
+            border-color: #feb700;
         }
     </style>
 </head>
 
 <body>
-    <div id="thesvg"></div>
-
+    <div id="thesvg">
+        <div class="svgplaceholder" data-svgplaceholder="dagbog1"></div>
+        <!-- <section id="modal">
+            <button>X</button>
+            <div id="modal-content">
+                <h2 class="modal-navn"></h2>
+                <span class="modal-created"></span>
+                <img class="modal-billede" src(unknown) alt>
+            </div>
+        </section> -->
+    </div>
     <script src="snap.svg-min.js"></script>
     <script src="tidslinje.js"></script>
 </body>

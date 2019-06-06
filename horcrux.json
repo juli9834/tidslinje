@@ -1,0 +1,130 @@
+[
+    {
+        "id": "dagbog1",
+        "navn": "dagbog1",
+        "created": "13 june 1943",
+        "murder": "Myrtle Warren",
+        "how": "Serpent of Slytherin",
+        "where": "First-floor lavetory Hogwarts Castle",
+        "hiding": "In the possession of Lucius Malfoy, later given to Ginny Weasley, and eventually found by Harry Potter"
+    },
+    {
+        "id": "ring1",
+        "created": "29 may 1993",
+        "murder": "Tom Riddle Senior",
+        "how": "Morfin Gaunt's wand",
+        "where": "Riddle House, Little Hangleton",
+        "hiding": "In the Gaunt Shack"
+    },
+    {
+        "id": "halskaede1",
+        "created": "1946 or later, but before 1979",
+        "murder": "A muggle tramp",
+        "how": "Unknown",
+        "where": "Unknown",
+        "hiding": "The Crystal Cave, later stolen by the combined efforts of Regulus Black and Kreacher; moved to 12 Grimmauld Place, later stolen by Mundungus Fletcher, who gave it to Dolores Umbridge"
+    },
+    {
+        "id": "pokal1",
+        "created": "1946 or later",
+        "murder": "Hepzibah Smith",
+        "how": "Unknown",
+        "where": "Hepzibah Smith's home",
+        "hiding": "The Lestrange family vault at Gringotts Wizarding Bank"
+    },
+    {
+        "id": "diadem1",
+        "created": "1946 or later",
+        "murder": "An Albanian peasant",
+        "where": "Albania",
+        "how": "Unknown",
+        "hiding": "In the Room of Requirement at Hogwarts Castle"
+    },
+    {
+        "id": "nagini1",
+        "created": "Summer 1994",
+        "murder": "Bertha Jorkins",
+        "how": "Unknown",
+        "where": "Albania",
+        "hiding": "Always by Lord Voldemort's side after the cup was stolen"
+    },
+    {
+        "id": "quirrell1",
+        "created": "1990-1991",
+        "murder": "None(soul very unstable at the time;possession)",
+        "how": "No murder",
+        "where": "N/A",
+        "hiding": "Hogwarts School of Witchcraft and Wizardry"
+    },
+    {
+        "id": "harry1",
+        "created": "31 october 1981",
+        "murder": "Harry's parents and attempted murder of infant Harry",
+        "how": "Voldemort had rendered his soul so unstable that it broke apart when he committed those acts of unspeakable evil",
+        "where": "Godric's Hollow, West Country",
+        "hiding": "Harry Potter"
+    },
+    {
+        "id": "dagbog2",
+        "destroyed": "29 may 1993",
+        "method": "Stabbed with a Basilisk's fang",
+        "site": "Chamber of Secrets, Hogwarts Castle",
+        "by": "Harry Potter"
+    },
+    {
+        "id": "ring2",
+        "destroyed": "july 1996",
+        "method": "Cut with Godric Gryffindor's Sword",
+        "site": "Headmaster's office, Hogwarts Castle",
+        "by": "Albus Dumbledore"
+    },
+    {
+        "id": "halskaede2",
+        "destroyed": "28 december 1997",
+        "method": "Stabbed with Godric Gryffindor's Sword",
+        "site": "Forest of Dean, Gloucestershire",
+        "by": "Ron Weasley"
+    },
+    {
+        "id": "pokal2",
+        "destroyed": "Batlle of Hogwarts 2 may 1998",
+        "method": "Stabbed with a Basilisk fang",
+        "site": "Chamber of Secrets, Hogwarts Castle",
+        "by": "Hermione Granger"
+    },
+    {
+        "id": "diadem2",
+        "destroyed": "Batlle of Hogwarts 2 may 1998",
+        "method": "Fiendfyre",
+        "site": "Room of Requirement, Hogwarts Castle",
+        "by": "Vincent Crabbe. Stabbed with a Basilisk fang and the kicked into Vincent Crabbe's unintentional Fiendfyre"
+    },
+    {
+        "id": "nagini2",
+        "destroyed": "Batlle of Hogwarts 2 may 1998",
+        "method": "Beheaded with Godric Gryffindor's Sword",
+        "site": "Front steps og Hogwarts",
+        "by": "Neville Longbottom"
+    },
+    {
+        "id": "quirrell2",
+        "destroyed": "4 june 1992",
+        "method": "Burnt to death under Harry's touch",
+        "site": "Underground Chambers Hogwarts Castle",
+        "by": "Harry Potter"
+    },
+    {
+        "id": "harry2",
+        "destroyed": "2 may 1998",
+        "method": "Destroyed with a Killing Curse from The Elder Wand",
+        "site": "The Forbidden Forest, Hogwarts School og Witchcraft and Wizardry",
+        "by": "Lord Voldemort"
+    },
+    {
+        "id": "doed",
+        "destroyed": "2 may 1998",
+        "method": "Lord Voldemort fired a killing curse at Harry, but the Elder Wand refused to kill its true master Harry Potter and rebounded the spell",
+        "site": "Great Hall, Hodwarts Castle",
+        "by": "The Elder Wand"
+    }
+]
