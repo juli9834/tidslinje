@@ -13,10 +13,10 @@
         }
 
         #thesvg {
-            max-width: 150vw;
+            width: 150%;
         }
 
-        #modal button {
+        button {
             font-size: 1em;
             color: white;
             margin-top: 10px;
@@ -24,22 +24,281 @@
             background-color: #feb700;
             border-color: #feb700;
         }
+
+        #modal,
+        #modal2,
+        #modal3,
+        #modal4,
+        #modal5,
+        #modal8,
+        #modal7,
+        #modal6,
+        #modal9,
+        #modal10,
+        #modal11,
+        #modal12,
+        #modal13,
+        #modal14,
+        #modal15,
+        #modal16,
+        #modal17 {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            display: none;
+            position: absolute;
+        }
+
+        #modal.vis,
+        #modal2.vis2,
+        #modal3.vis3,
+        #modal4.vis4,
+        #modal5.vis5,
+        #modal8.vis8,
+        #modal7.vis7,
+        #modal6.vis6,
+        #modal9.vis9,
+        #modal10.vis10,
+        #modal11.vis11,
+        #modal12.vis12,
+        #modal13.vis13,
+        #modal14.vis14,
+        #modal15.vis15,
+        #modal16.vis16,
+        #modal17.vis17 {
+            display: block;
+        }
+
+        #modal p,
+        #modal2 p,
+        #modal3 p,
+        #modal4 p,
+        #modal5 p,
+        #modal6 p,
+        #modal7 p,
+        #modal8 p,
+        #modal9 p,
+        #modal10 p,
+        #modal11 p,
+        #modal12 p,
+        #modal13 p,
+        #modal14 p,
+        #modal15 p,
+        #modal16 p,
+        #modal17 {
+            font: 2em;
+            width: 95%;
+        }
+
+        #dagbog1,
+        #ring1,
+        #halskaede1,
+        #pokal1,
+        #diadem1,
+        #nagini1,
+        #quirrell1,
+        #harry1,
+        #dagbog2,
+        #ring2,
+        #halskaede2,
+        #pokal2,
+        #diadem2,
+        #nagini2,
+        #quirrell2,
+        #harry2,
+        #doed {
+            animation-name: puls;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
+            transform-box: fill-box;
+            animation-direction: alternate;
+            cursor: pointer;
+        }
+
+        @keyframes puls {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.2);
+            }
+        }
+
+        #dagbog1:hover,
+        #ring1:hover,
+        #halskaede1:hover,
+        #pokal1:hover,
+        #diadem1:hover,
+        #nagini1:hover,
+        #quirrell1:hover,
+        #harry1:hover,
+        #dagbog2:hover,
+        #ring2:hover,
+        #halskaede2:hover,
+        #pokal2:hover,
+        #diadem2:hover,
+        #nagini2:hover,
+        #quirrell2:hover,
+        #harry2:hover,
+        #doed:hover {
+            animation-name: rotate;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
     </style>
 </head>
 
 <body>
     <div id="thesvg">
-        <div class="svgplaceholder" data-svgplaceholder="dagbog1"></div>
-        <!-- <section id="modal">
+
+
+        <div id="modal">
             <button>X</button>
-            <div id="modal-content">
-                <h2 class="modal-navn"></h2>
-                <span class="modal-created"></span>
-                <img class="modal-billede" src(unknown) alt>
-            </div>
-        </section> -->
+            <img src="Tom_Riddle's_Diary.png" alt="">
+            <p>The diary of Tom Riddle was created on 13 june 1943 with the murder of Myrtle Warren.</p>
+            <p>She was murdered by the serpant of Slytherin, in the first floor lavetory of Hogwarts Castle.</p>
+            <p>The diary was hidden in the possession of Lucius Malfoy, later given to Ginny Weasley, and eventually
+                found by Harry Potter.</p>
+        </div>
+        <div id="modal2">
+            <button>X</button>
+            <img src="Marvolo_Gaunt's_Ring.jpg" alt="">
+            <p>The ring of Marvolo Gaunt was created on 29 may 1993 with the murder of Tom Riddle Senior.</p>
+            <p>He was murderes by using Morfin Gaunt's wand, in the Riddle House, Little Hangleton.</p>
+            <p>After it was hidden in In the Gaunt Shack.</p>
+        </div>
+        <div id="modal3">
+            <button>X</button>
+            <img src="locket.jpg" alt="">
+            <p>The locket of Zalazar Slytherin was made in 1946 or later, but before 1979 with the murder of a
+                muggle tramp.</p>
+            <p>It is unknown where and how it happened.</p>
+            <p>The locket was hidden in the Crystal Cave, later stolen by the combined efforts of Regulus Black and
+                Kreacher; moved to 12 Grimmauld Place, later stolen by Mundungus Fletcher, who gave it to Dolores
+                Umbridge.</p>
+        </div>
+        <div id="modal4">
+            <button>X</button>
+            <img src="WBSTL_PM_helga_hufflepuff_cup_horcrux.jpg" alt="">
+            <p>The cup of Helga Hufflepuff was made in 1946 or later with the murder of Hepzibah Smith.</p>
+            <p>How it happened is unknown but it happened at Hepzibah Smith's home.</p>
+            <p>The cup was hidden in The Lestrange family vault at Gringotts Wizarding Bank.</p>
+        </div>
+        <div id="modal5">
+            <button>X</button>
+            <img src="diadem.jpg" alt="">
+            <p>The Diadem of Rowena Ravenclaw was made in 1946 or later with the murder of an Albanian peasant.</p>
+            <p>IT is unknown how it happened but it happened in Albania.</p>
+            <p>The diadem was then hidden in the Room of Requirement at Hogwarts Castle.</p>
+        </div>
+        <div id="modal6">
+            <button>X</button>
+            <img src="Harry_Potter's_Lightning_scar_02.jpg" alt="">
+            <p>Harry Potter is a pseudo-horcrux that was made on 31 october 1981 with the murder of Harry's parents
+                and attempted murder of infant Harry.</p>
+            <p>He was made because Voldemort had rendered his soul so unstable that it broke apart when he committed
+                those acts of unspeakable evil, and it was made in Godric's Hollow, West Country.</p>
+            <p>The hiding place was Harry himself.</p>
+        </div>
+        <div id="modal7">
+            <button>X</button>
+            <img src="quirrell.jpg" alt="">
+            <p>Quirrell is also a pseudo-horcrux, he was made in 1990-1991, it didn't require a murder to make him
+                because his soul was wery unstable at the time Voldemort took possesion of his body.</p>
+            <p>It is unknown how he really did it, and the place is N/A.</p>
+            <p>The hiding place was Hogwarts School of Witchcraft and Wizardry.</p>
+        </div>
+        <div id="modal8">
+            <button>X</button>
+            <img src="nagini-agathum.jpg" alt="">
+            <p>Nagini was the last horcrux made and the was made in the summer of 1994 with the murder of Bertha
+                Jorkins.</p>
+            <p>It is unknown how it happened but it happened in Albania.</p>
+            <p>Nagini wasen't hidden but always by Lord Voldemort's side.</p>
+        </div>
+        <div id="modal9">
+            <button>X</button>
+            <img src="quirrell.jpg" alt="">
+            <p>Quirrell was killed on 4 june 1992.</p>
+            <p>He was burnt to death under Harry's touch in the underground Chambers of Hogwarts Castle.</p>
+            <p>He was killed by Harry Potter.</p>
+        </div>
+        <div id="modal10">
+            <button>X</button>
+            <img src="Tom_Riddle's_Diary.png" alt="">
+            <p>Tom Riddles diary was destroyd on 29 may 1993.</p>
+            <p>It was stabbed with a Basilisk's fang in the chamber of Secrets in Hogwarts Castle.</p>
+            <p>It was destroyed by Harry Potter.</p>
+        </div>
+        <div id="modal11">
+            <button>X</button>
+            <img src="Marvolo_Gaunt's_Ring.jpg" alt="">
+            <p>Marvolo Gaunts ring was destroyed in july 1996.</p>
+            <p>It was cut with Godric Gryffindor's Sword in the headmaster's office, Hogwarts Castle.</p>
+            <p>It was done by Albus Dumbledore.</p>
+        </div>
+        <div id="modal12">
+            <button>X</button>
+            <img src="locket.jpg" alt="">
+            <p>Zalazar Slytherins locket was destroyed on 28 december 1997.</p>
+            <p>It was stabbed with Godric Gryffindor's Sword in the Forest of Dean, Gloucestershire.</p>
+            <p>It was done by Ron Weasley.</p>
+        </div>
+        <div id="modal13">
+            <button>X</button>
+            <img src="WBSTL_PM_helga_hufflepuff_cup_horcrux.jpg" alt="">
+            <p>Helga Hufflepuffs cup was destroyed in the battle of Hogwarts on 2 may 1998.</p>
+            <p>It was stabbed with a Basilisk fang in the Chamber of Secrets, Hogwarts Castle.</p>
+            <p>It was done by Hermione Granger.</p>
+        </div>
+        <div id="modal14">
+            <button>X</button>
+            <img src="diadem.jpg" alt="">
+            <p>The diadem of Rowena Ravenclaw was destroyed in the batlle of Hogwarts on 2 may 1998.</p>
+            <p>It was destroyed by Fiendfyre in the Room of Requirement, Hogwarts Castle.</p>
+            <p>I was by Vincent Crabbe. Stabbed with a Basilisk fang and the kicked into Vincent Crabbe's unintentional
+                Fiendfyre.</p>
+        </div>
+        <div id="modal15">
+            <button>X</button>
+            <img src="nagini-agathum.jpg" alt="">
+            <p>Nagini was killed in the batlle of Hogwarts on 2 may 1998.</p>
+            <p>She was beheaded with Godric Gryffindor's Sword on the front steps og Hogwarts</p>
+            <p>She was killed by Neville Longbottom.</p>
+        </div>
+        <div id="modal16">
+            <button>X</button>
+            <img src="Harry_Potter's_Lightning_scar_02.jpg" alt="">
+            <p>Harry Potter was killed on 2 may 1998.</p>
+            <p>He was destroyed with a Killing Curse from The Elder Wand in The Forbidden Forest, Hogwarts School og
+                Witchcraft and Wizardry.</p>
+            <p>HE was killed by Lord Voldemort.</p>
+        </div>
+        <div id="modal17">
+            <button>X</button>
+            <img src="fbdb12e819705c61a00d434b4c22ba1e.jpg" alt="">
+            <p>Lord Voldemort was killed on the 2 may 1998.</p>
+            <p>Lord Voldemort fired a killing curse at Harry, but the Elder Wand refused to kill its true master Harry
+                Potter and rebounded the spell, in the Great Hall, Hodwarts Castle.</p>
+            <p>He was killed by The Elder Wand.</p>
+        </div>
+
     </div>
-    <script src="snap.svg-min.js"></script>
+
     <script src="tidslinje.js"></script>
 </body>
 
